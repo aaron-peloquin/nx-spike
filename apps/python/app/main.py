@@ -18,7 +18,7 @@ app.add_middleware(
 async def hello():
     """Return the current server time in ISO 8601 format (Central Time)."""
     now = datetime.now(ZoneInfo("America/Chicago")).isoformat()
-    return {"time": now, "message": "Hello from FastAPI!"}
+    return {"time": now, "message": "Selly from FastAPI!"}
 
 
 @app.get("/health")
