@@ -1,0 +1,11 @@
+{
+  "name": "@experiment-nx/nextjs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@experiment-nx/components": "workspace:*",
+    "next": "~16.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

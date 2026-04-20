@@ -1,0 +1,11 @@
+node_modules
+.next
+.nx
+dist
+*.md
+.git
+.gitignore
+.editorconfig
+.prettierrc
+.prettierignore
+.vscode
